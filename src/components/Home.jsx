@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/Home.css'
 
 const Home = () => {
   return (
-    <div>
-      <h1 style={{ fontFamily:'Ms Madi'}} className='home-name'> Olivia Manalastas </h1>
+    <div className='home'>
+      <h1 className='home-name'> Olivia Manalastas </h1>
     </div>
   )
 }
