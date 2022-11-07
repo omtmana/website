@@ -1,11 +1,13 @@
 .home {
    display: grid;
    place-items: center;
+   margin-top: 1em;
    /* border: 1px solid black; */
 }
 
-/* .home-header-banner {
-} */
+.home-header-banner {
+   display: flex;
+}
 
 .home-name {
    /* font-family: 'Ms Madi'; */
@@ -15,7 +17,16 @@
    color: #505050;
 }
 
+.home-button-container {
+   display: flex;
+   padding-top: 1em;
+}
+
 .home-button {
-   height: 3em;
-   width: 5em;
+   height: 5em;
+   width: 8em;
+   background-color: white;
+   border: 1.5px solid gray;
+   border-radius: 1em;
+   margin: .20em;
 }
