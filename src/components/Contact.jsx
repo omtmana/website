@@ -18,7 +18,7 @@ const Contact = () => {
   })
 
   //UPDATE displayed items
-  const handleAddComment = () => {
+  const handleAddComment = (newComment) => {
     const updatedCommentSection = [...data, newComment]
     setData(updatedCommentSection)
   }

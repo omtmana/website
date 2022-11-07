@@ -1,11 +1,18 @@
 {
-   "contactMe": [
-      {
-         "firstName": "Olivia",
-         "lastName": "Manalastas",
-         "email": "oliviatmanalastas@gmail.com",
-         "message": "Hello this site is great!",
-         "id": 1
-      }
-   ]
+  "contactMe": [
+    {
+      "firstName": "Olivia",
+      "lastName": "Manalastas",
+      "email": "oliviatmanalastas@gmail.com",
+      "message": "Hello this site is great!",
+      "id": 1
+    },
+    {
+      "firstName": "Raoul",
+      "lastName": "Anonas",
+      "email": "ranonas@gmail.com",
+      "message": "Hello",
+      "id": 2
+    }
+  ]
 }
