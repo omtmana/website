@@ -4,7 +4,7 @@ import '../styles/Production.css'
 const Production = () => {
   return (
     <div className='production'>
-      <h1> Production </h1>
+      <h1> Productions </h1>
     </div>
   )
 }
