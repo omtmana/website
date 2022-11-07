@@ -26,16 +26,9 @@ const Home = () => {
             <span className='link-data'> Resume </span> |
             <span onClick={handleContactMe} className='link-data'> Contact Me! </span>
           </h4>
-          {/* <button className='home-button'> LinkedIn </button>
-          <button className='home-button'> Github </button>
-          <br></br>
-          <button className='home-button'> Resume </button>
-          <button className='home-button'> Contact Me! </button> */}
         </div>
         <img src='profile_pic.png' className='home-image' />
       </div>
-      {/* <div className='home-button-container'>
-      </div> */}
     </div>
   )
 }
