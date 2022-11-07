@@ -10,6 +10,10 @@ const Home = () => {
     window.open('https://www.linkedin.com/in/olivia-manalastas/')
   }
 
+  const handleGithub = () => {
+    window.open('https://github.com/omtmana')
+  }
+
   const handleContactMe = () => {
     navigate('/contact')
   }
@@ -22,7 +26,7 @@ const Home = () => {
           <h2 style={{ fontFamily: 'Ms Madi', fontSize: '3em', color: '#FF0066' }}> Software Engineer </h2>
           <h4 className='home-links'>
             <span onClick={handleLinkedIn} className='link-data'> LinkedIn </span> |
-            <span className='link-data'> Github </span> |
+            <span onClick={handleGithub}className='link-data'> Github </span> |
             <span className='link-data'> Resume </span> |
             <span onClick={handleContactMe} className='link-data'> Contact Me! </span>
           </h4>
