@@ -22,11 +22,18 @@
    padding-top: 1em;
 }
 
+.home-links {
+   margin-top: -2em;
+   font-size: 1.5em;
+}
+
 .home-button {
    height: 5em;
-   width: 8em;
-   background-color: white;
-   border: 1.5px solid gray;
+   width: 15em;
+   /* background-color: white; */
+   /* border: 1.5px solid gray; */
    border-radius: 1em;
    margin: .20em;
+   font-family: 'Work Sans';
+   font-size: 1em;
 }
