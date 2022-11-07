@@ -9,6 +9,11 @@ const Home = () => {
   const handleLinkedIn = () => {
     navigate('/about')
   }
+
+  const handleContactMe = () => {
+    navigate('/contact')
+  }
+  
   return (
     <div className='home'>
       <div className='home-header-banner'>
@@ -19,7 +24,7 @@ const Home = () => {
             <span onClick={handleLinkedIn}> LinkedIn </span> |
             <span> Github </span> |
             <span> Resume </span> |
-            <span> Contact Me! </span>
+            <span onClick={handleContactMe}> Contact Me! </span>
           </h4>
           {/* <button className='home-button'> LinkedIn </button>
           <button className='home-button'> Github </button>
