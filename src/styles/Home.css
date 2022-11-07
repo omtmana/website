@@ -27,6 +27,14 @@
    font-size: 1.5em;
 }
 
+.link-data {
+   cursor: pointer;
+}
+
+.link-data:hover {
+   color: #FF0066;
+}
+
 .home-button {
    height: 5em;
    width: 15em;
