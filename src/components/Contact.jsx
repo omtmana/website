@@ -13,8 +13,8 @@ const Contact = () => {
   // GET 
   useEffect(() => {
     fetch(fetchLink)
-    .then(res => res.json())
-    .then((data) => setData(data))
+      .then(res => res.json())
+      .then((data) => setData(data))
   })
 
   //UPDATE displayed items
@@ -54,6 +54,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit} className='contact-form'>
           <div>
             <input
+              className='input-first-name'
               type='text'
               placeholder='First Name'
               value={firstName}
@@ -62,6 +63,7 @@ const Contact = () => {
           </div>
           <div>
             <input
+              className='input-last-name'
               type='text'
               placeholder='Last Name'
               value={lastName}
@@ -70,6 +72,7 @@ const Contact = () => {
           </div>
           <div>
             <input
+              className='input-email'
               type='text'
               placeholder='Email'
               value={email}
@@ -78,8 +81,9 @@ const Contact = () => {
           </div>
           <div>
             <input
+              className='input-message'
               type='text'
-              placeholder='Write your message here!'
+              placeholder='Write your message here'
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />

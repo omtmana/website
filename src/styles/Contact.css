@@ -1,4 +1,49 @@
+.contact {
+  display: grid;
+  place-items: center;
+  /* border: 2px solid black; */
+  font-family: "Ms Madi";
+}
+
 .contact-form {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.input-first-name {
+  font-size: 1.15em;
+  font-family: "Work Sans";
+  padding: 5px;
+  margin: 4px;
+}
+
+.input-last-name {
+  font-size: 1.15em;
+  font-family: "Work Sans";
+  padding: 5px;
+  margin: 4px;
+}
+
+.input-email {
+  font-size: 1.15em;
+  font-family: "Work Sans";
+  padding: 5px;
+  margin: 4px;
+}
+
+.input-email {
+  font-size: 1.15em;
+  font-family: "Work Sans";
+  padding: 5px;
+  margin: 4px;
+}
+
+.input-message {
+  font-size: 1.15em;
+  font-family: "Work Sans";
+  height: 15em;
+  width: 25em;
+  padding: 5px;
+  margin: 4px;
 }
