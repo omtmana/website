@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate()
 
   const handleLinkedIn = () => {
-    navigate('/about')
+    window.open('https://www.linkedin.com/in/olivia-manalastas/')
   }
 
   const handleContactMe = () => {
@@ -33,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home 
+export default Home;
