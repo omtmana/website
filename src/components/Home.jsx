@@ -14,6 +14,10 @@ const Home = () => {
     window.open('https://github.com/omtmana')
   }
 
+  const handleResume = () => {
+    window.open('olivia_resume.pdf')
+  }
+
   const handleContactMe = () => {
     navigate('/contact')
   }
@@ -27,7 +31,7 @@ const Home = () => {
           <h4 className='home-links'>
             <span onClick={handleLinkedIn} className='link-data'> LinkedIn </span> |
             <span onClick={handleGithub}className='link-data'> Github </span> |
-            <span className='link-data'> Resume </span> |
+            <span onClick={handleResume}className='link-data'> Resume </span> |
             <span onClick={handleContactMe} className='link-data'> Contact Me! </span>
           </h4>
         </div>
