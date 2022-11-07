@@ -2,5 +2,11 @@
    text-decoration: none;
    color: #FF0099;
    font-family: 'Noto Sans KR';
+}
+
+.header {
    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 6em;
 }
