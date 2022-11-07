@@ -5,6 +5,10 @@
   font-family: "Ms Madi";
 }
 
+.contact-header {
+  font-size: 3em;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -16,6 +20,8 @@
   font-family: "Work Sans";
   padding: 5px;
   margin: 4px;
+  border: 2px;
+  border-radius: 5px;
 }
 
 .input-last-name {
@@ -23,6 +29,8 @@
   font-family: "Work Sans";
   padding: 5px;
   margin: 4px;
+  border: 2px;
+  border-radius: 5px;
 }
 
 .input-email {
@@ -30,6 +38,8 @@
   font-family: "Work Sans";
   padding: 5px;
   margin: 4px;
+  border: 2px;
+  border-radius: 5px;
 }
 
 .input-email {
@@ -37,6 +47,8 @@
   font-family: "Work Sans";
   padding: 5px;
   margin: 4px;
+  border: 2px;
+  border-radius: 5px;
 }
 
 .input-message {
@@ -46,4 +58,6 @@
   width: 25em;
   padding: 5px;
   margin: 4px;
+  border: 2px;
+  border-radius: 5px;
 }
