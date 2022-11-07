@@ -89,7 +89,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <button> Send Message! </button>
+            <button className='contact-button'> Send Message! </button>
           </div>
         </form>
       </div>

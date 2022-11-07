@@ -6,7 +6,8 @@
 }
 
 .contact-header {
-  font-size: 3em;
+  font-size: 5em;
+  margin-bottom: -.05px;
 }
 
 .contact-form {
@@ -61,3 +62,19 @@
   border: 2px;
   border-radius: 5px;
 }
+
+.contact-button {
+   background-color: white;
+   color: #FF0066;
+   border: 1px;
+   height: 3em;
+   width: 10em;
+   /* padding: 5px; */
+   font-family: "Work Sans";
+   margin: 4px;
+   border-radius: 5px;
+}
+
+/* .contact-button:hover {
+   color: #FF0066;
+} */
