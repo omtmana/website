@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='header'>
       {/* <div> */}
-      <Link to='/' className='link'>
+      <Link to='/' className='link' style={{ float: 'left' }}>
         <img src='home.png'  className='header-home'/>
       </Link>
       {/* </div> */}

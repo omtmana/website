@@ -2,19 +2,19 @@
    text-decoration: none;
    color: #FF0099;
    font-family: 'Noto Sans KR';
+   font-weight: 900;
+   letter-spacing: 2px;
+
 }
 
 .header {
    display: flex;
    flex-direction: row;
-   justify-content: space-around;
+   justify-content: space-between;
    height: 6em;
+   /* border: 1px solid black; */
 }
 
 .header-home {
-   width: 5em;
-}
-
-.header-phone {
-   width: 5em;
+   width: 4em;
 }
