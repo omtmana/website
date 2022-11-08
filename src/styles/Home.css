@@ -6,7 +6,17 @@
 }
 
 .home-header-banner {
+   /* border: 1px solid black; */
+   background-color: #F5F5F5;
+   border-radius: 15px;
+   /* z-index: -1; */
+   padding-top: 3em;
+   padding-bottom: 3em;
+   padding-left: 7em;
+   padding-right: 7em;
+   margin-top: -5em;
    display: flex;
+   filter: drop-shadow(1px 1px 0.5px #DCDCDC);
 }
 
 .home-name {
@@ -33,6 +43,8 @@
 
 .link-data:hover {
    color: #FF0066;
+   filter: drop-shadow(1px 1px 0.5px white);
+   /* transform: scale(10); */
 }
 
 .home-button {
