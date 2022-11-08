@@ -7,7 +7,16 @@
 
 .contact-header {
   font-size: 4em;
+  color: rgb(0, 0, 0);
   /* margin-bottom: -.05px; */
+}
+
+.contact-form-container {
+  /* border: 1px solid black; */
+  border-radius: 1em;
+  background-color: rgb(255, 0, 102, 0.1);
+  /* margin: 2em; */
+  padding: 3.5em;
 }
 
 .contact-form {
