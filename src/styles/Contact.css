@@ -80,8 +80,9 @@
 }
 
 .contact-button {
-   background-color: white;
-   color: #FF0066;
+   background-color: rgb(255, 0, 102, 0.8);
+   font-weight: 900;
+   color: white;
    border: 1px;
    height: 3em;
    width: 10em;
@@ -89,9 +90,5 @@
    font-family: "Work Sans";
    margin: 4px;
    border-radius: 5px;
-   border: 2px solid rgb(255, 0, 102, 0.5);
+   /* border: 2px solid rgb(255, 0, 102, 0.5); */
 }
-
-/* .contact-button:hover {
-   color: #FF0066;
-} */
