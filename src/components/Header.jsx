@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../styles/Layout.css'
 
 const Header = () => {
   return (
     <div className='header'>
       {/* <div> */}
       <Link to='/' className='link'>
-        <p> Home Logo </p>
+        <img src='home.png'  className='header-home'/>
       </Link>
       {/* </div> */}
       <Link to='/about' className='link'>
@@ -16,7 +17,8 @@ const Header = () => {
         <p> Productions </p>
       </Link>
       <Link to='/contact'className='link'>
-        <p> Contact</p>
+        {/* <img src='telephone.png' className='header-phone' /> */}
+        <p> Contact </p>
       </Link>
     </div>
   )
