@@ -1,17 +1,27 @@
 .link {
    text-decoration: none;
+   /* border: 1px solid black; */
    color: #FF0099;
    font-family: 'Noto Sans KR';
    font-weight: 900;
    letter-spacing: 2px;
+   padding-left: 2em;
+   padding-right: 2em;
+   /* position: absolute; */
+   /* left: 10em; */
+}
 
+.link:hover {
+   background-color: rgb(255, 0, 153, 0.25);
+   /* border-radius: 10px; */
+   color: white;
 }
 
 .header {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
-   height: 6em;
+   justify-content: flex-end;
+   /* height: 6em; */
    /* border: 1px solid black; */
 }
 

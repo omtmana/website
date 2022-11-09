@@ -4,12 +4,11 @@ import '../styles/Layout.css'
 
 const Header = () => {
   return (
-    <div className='header'>
-      {/* <div> */}
-      <Link to='/' className='link' style={{ float: 'left' }}>
+    <>
+      <Link to='/' className='link-home' style={{ float: 'left' }}>
         <img src='home.png'  className='header-home'/>
       </Link>
-      {/* </div> */}
+    <div className='header'>
       <Link to='/about' className='link'>
         <p> About </p>
       </Link>
@@ -21,6 +20,7 @@ const Header = () => {
         <p> Contact </p>
       </Link>
     </div>
+    </>
   )
 }
 
