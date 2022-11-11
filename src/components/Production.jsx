@@ -20,13 +20,13 @@ const Production = () => {
 
   return (
     <div className='production'>
-      <div onClick={handleCode}>
+      <div onClick={handleCode} className='production-code'>
         <h1> Codes </h1>
         </div>
-        <div onClick={handleBlog}>
+        <div onClick={handleBlog} className='production-blog'>
           <h1> Blogs </h1>
         </div>
-        <div onClick={handlePicture}>
+        <div onClick={handlePicture} className='production-picture'>
           <h1> Pictures </h1>
         </div>
     </div>
