@@ -2,13 +2,20 @@
   display: grid;
   place-items: center;
   font-size: 1em;
+  padding-top: 7em;
   /* border: 1px solid red; */
 }
 
-.production-code {
-  border: 1px solid black;
+.production-code:hover {
+  /* border: 1px solid black; */
+  color: palevioletred;
 }
 
-.production-blog {
+.production-blog:hover {
   /* border: 1px solid black; */
+  color: #ff69b4;
+}
+
+.production-picture:hover {
+    color: palevioletred;
 }
