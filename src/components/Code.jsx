@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Code.css'
 
 const Code = () => {
   return (

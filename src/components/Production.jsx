@@ -21,8 +21,8 @@ const Production = () => {
   return (
     <div className='production'>
       <h1>
-        <span onClick={handleCode} className='production-code'> Codes |</span>
-        <span onClick={handleBlog} className='production-blog'> Blogs |</span>
+        <span onClick={handleCode} className='production-code'> Codes </span>|
+        <span onClick={handleBlog} className='production-blog'> Blogs </span>|
         <span onClick={handlePicture} className='production-picture'> Pictures </span></h1>
     </div>
   )
