@@ -2,7 +2,9 @@ import React from 'react'
 
 const Code = () => {
   return (
-    <div>Code</div>
+    <div className='code'>
+      <h1> Code Page </h1>
+    </div>
   )
 }
 

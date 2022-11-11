@@ -5,6 +5,9 @@ import About  from './components/About';
 import Home from './components/Home';
 import Production from './components/Production';
 import Contact from './components/Contact';
+import Blog from './components/Blog';
+import Code from './components/Code';
+import Picture from './components/Picture';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/production' element={<Production />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/code' element={<Code />}/>
+            <Route path='/blog' element={<Blog />} />
+            <Route path='/picture' element={<Picture />} />
           </Routes>
         </Layout>
       </BrowserRouter>
