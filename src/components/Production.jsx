@@ -20,15 +20,7 @@ const Production = () => {
 
   return (
     <div className='production'>
-      <div onClick={handleCode} className='production-code'>
-        <h1> Codes </h1>
-        </div>
-        <div onClick={handleBlog} className='production-blog'>
-          <h1> Blogs </h1>
-        </div>
-        <div onClick={handlePicture} className='production-picture'>
-          <h1> Pictures </h1>
-        </div>
+      <h1><span className={handleCode}>Codes</span><span className={handleBlog}>Blogs</span><span className={handlePicture}>Pictures</span></h1>
     </div>
   )
 }

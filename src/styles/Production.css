@@ -1,12 +1,12 @@
 .production {
   display: grid;
   place-items: center;
-  font-size: 3em;
+  font-size: 1em;
   /* border: 1px solid red; */
 }
 
 .production-code {
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 .production-blog {
