@@ -8,7 +8,7 @@ const Contact = () => {
   const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
-  const fetchLink = 'http://localhost:3000/contactMe'
+  const fetchLink = 'https://back-app.onrender.com/contacts'
 
   // GET 
   useEffect(() => {
