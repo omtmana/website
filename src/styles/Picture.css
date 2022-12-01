@@ -2,3 +2,18 @@
    display: grid;
   place-items: center;
 }
+
+.picture-img {
+  width: 500px;
+  height: 500px;
+  padding: 3px;
+  /* border-radius: 1em; */
+}
+
+.picture-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding: 2em; */
+  /* margin: 1em; */
+}

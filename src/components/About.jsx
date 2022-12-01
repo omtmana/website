@@ -12,7 +12,7 @@ export const About = () => {
           <p> 📍 Born in America. Grew up in the Philippines. Currently in New York City</p>
           <p> 🧩 Civil Engineering dropout with experience in Mathematics education, Civil Engineering, and Marketing.</p>
           <p> 🧘🏻‍♀️ Aspiring tennis player. V3 in indoor bouldering. 5.10d in indoor top-rope. Occasional futball player</p>
-          <p></p>
+          {/* <p> Currently reading: 21 Lessons for the 21st Century </p> */}
         </span>
       </div>
     </div>
