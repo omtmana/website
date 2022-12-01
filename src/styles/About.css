@@ -2,4 +2,9 @@
   display: grid;
   place-items: center;
   font-size: 3.5em;
+  font-family: 'Work Sans';
+}
+
+.about-list {
+  font-size: 20px;
 }
