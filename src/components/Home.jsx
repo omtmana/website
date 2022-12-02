@@ -35,7 +35,7 @@ const Home = () => {
             <span onClick={handleContactMe} className='link-data'> Contact Me! </span>
           </h4>
         </div>
-        <img src='profile_pic.png' className='home-image' />
+        <img src='pic.png' className='home-image' />
       </div>
     </div>
   )
