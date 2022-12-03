@@ -30,11 +30,13 @@ const Code = () => {
         <div className='code-card'>
           <h1> Flypto </h1>
           <img src='temp_image.png' className='code-image' />
+          <p> Ruby on Rails </p>
           <button className='code-button' onClick={handleCodeTwo}>Github</button>
         </div>
         <div className='code-card'>
           <h1> OMT </h1>
           <img src='temp_image.png' className='code-image' />
+          <p> ReactJS </p>
           <button className='code-button' onClick={handleCodeThree}>Github</button>
         </div>
       </div>
