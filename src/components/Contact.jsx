@@ -87,7 +87,7 @@ const Contact = () => {
             <input
               className='input-message'
               type='text'
-              placeholder='The backend will be up and running soon!'
+              placeholder='No Backend yet.'
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />

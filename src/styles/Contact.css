@@ -12,12 +12,11 @@
 }
 
 .contact-form-container {
-  /* border: 1px solid black; */
   border-radius: 1em;
-  /* background-color: rgb(255, 0, 102, 0.1); */
-  /* margin: 2em; */
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.6);
   padding: 3.5em;
+  /* border: 1px solid black; */
+  max-width: 100%;
   filter: drop-shadow(1px 1px 0.5px #DCDCDC);
   /* text-align: center; */
 }
@@ -72,8 +71,10 @@
 .input-message {
   font-size: 1.15em;
   font-family: "Work Sans";
-  height: 15em;
-  width: 25em;
+  height: 5em;
+  width: auto;
+  max-height: 15em;
+  max-width: 25em;
   padding: 5px;
   margin: 4px;
   border: 2px;
