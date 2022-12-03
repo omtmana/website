@@ -1,15 +1,12 @@
 body {
-  margin: 0;
   max-height: 100%;
   max-width: 100%;
-  /* padding: .5em; */
   box-sizing: border-box;
   font-family: 'Noto Sans KR';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color:rgba(240, 128, 128, 0.20); */
   background-color: rgb(228, 228, 228);
-  /* opacity: .75; */
 }
 
 /* body::-webkit-scrollbar {
