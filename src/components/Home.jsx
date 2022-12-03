@@ -27,7 +27,7 @@ const Home = () => {
       <div className='home-header-banner'>
         <div>
           <span>
-            <img src='pic.png' className='home-image' />
+            <img src='pic2.png' className='home-image' />
           </span>
           <h1 className='home-name'> Olivia Manalastas </h1>
           <h2 style={{ fontFamily: 'Ms Madi', fontSize: '3em', color: '#FF0066' }}> Software Engineer </h2>
