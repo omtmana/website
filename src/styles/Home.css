@@ -59,7 +59,7 @@
 }
 
 .home-image {
-   width: 325px;
-   opacity: .92;
+   max-width: 325px;
+   opacity: .85;
    padding-left: 1em;
 }
