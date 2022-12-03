@@ -22,16 +22,19 @@ const Code = () => {
       {/* <h1 style={{ fontFamily: 'Ms Madi' }}> Check out my code! </h1> */}
       <div className='code-container'>
         <div className='code-card'>
-          <h1> Scan Me! </h1>
-          <img />
+          <h1 style={{textAlign: 'left'}}> Scan Me! </h1>
+          <img src='temp_image.png' className='code-image'/>
+          <p> HTML, CSS, JavaScript, React, Ruby on Rails, Trello, Figma, PostgreSQL, npm </p>
           <button className='code-button' onClick={handleCodeOne}>Github</button>
         </div>
         <div className='code-card'>
           <h1> Flypto </h1>
+          <img src='temp_image.png' className='code-image' />
           <button className='code-button' onClick={handleCodeTwo}>Github</button>
         </div>
         <div className='code-card'>
           <h1> OMT </h1>
+          <img src='temp_image.png' className='code-image' />
           <button className='code-button' onClick={handleCodeThree}>Github</button>
         </div>
       </div>
