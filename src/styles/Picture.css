@@ -3,13 +3,13 @@
   /* place-items: center; */
   /* margin: 0; */
   max-width: 100%;
-  margin-right: 3em;
+  /* margin-right: 3em; */
 }
 
 
 .picture-img {
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
   /* position: relative; */
   /* padding: 1em; */
 }
