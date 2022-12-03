@@ -1,12 +1,14 @@
 .code {
   display: grid;
   place-items: center;
+  /* height: 100%; */
 }
 
 .code-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5em
   /* margin: 1em; */
 }
 

@@ -88,16 +88,9 @@
    border: 1px;
    height: 3em;
    width: 10em;
-   /* text-align: center; */
-   /* padding: 5px; */
    font-family: "Work Sans";
-   /* justify-content: center; */
    margin-top: 1em;
-   /* margin: 4px; */
    border-radius: 5px;
-   /* position: fixed; */
-   /* left: 30%; */
-   /* border: 2px solid rgb(255, 0, 102, 0.5); */
 }
 
 .contact-button:hover {
