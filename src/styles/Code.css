@@ -2,3 +2,33 @@
   display: grid;
   place-items: center;
 }
+
+.code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 1em; */
+}
+
+.code-card {
+  background-color: white;
+  margin: 1em;
+  width: 15em;
+  height: 20em;
+  flex-basis: 100%;
+  text-align: center;
+  border-radius: 1em;
+  /* border: 1px solid black; */
+}
+
+.code-button {
+     background-color: rgb(255, 0, 102, 0.8);
+   font-weight: 900;
+   color: white;
+   border: 1px;
+   height: 3em;
+   width: 10em;
+   font-family: "Work Sans";
+   margin-top: 1em;
+   border-radius: 5px;
+}
