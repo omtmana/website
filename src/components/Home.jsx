@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Home.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
@@ -26,16 +26,18 @@ const Home = () => {
     <div className='home'>
       <div className='home-header-banner'>
         <div>
+          <span>
+            <img src='pic.png' className='home-image' />
+          </span>
           <h1 className='home-name'> Olivia Manalastas </h1>
           <h2 style={{ fontFamily: 'Ms Madi', fontSize: '3em', color: '#FF0066' }}> Software Engineer </h2>
           <h4 className='home-links'>
             <span onClick={handleLinkedIn} className='link-data'> LinkedIn </span> |
-            <span onClick={handleGithub}className='link-data'> Github </span> |
-            <span onClick={handleResume}className='link-data'> Resume </span> |
+            <span onClick={handleGithub} className='link-data'> Github </span> |
+            <span onClick={handleResume} className='link-data'> Resume </span> |
             <span onClick={handleContactMe} className='link-data'> Contact Me! </span>
           </h4>
         </div>
-        <img src='pic.png' className='home-image' />
       </div>
     </div>
   )
