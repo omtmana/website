@@ -46,8 +46,9 @@
 }
 
 .link-data:hover {
-   color: #FF0066;
-   filter: drop-shadow(1px 1px 0.5px white);
+   /* color: #FF0066; */
+   color: #5F9EA0;
+   /* filter: drop-shadow(1px 1px 0.5px white); */
    /* transform: scale(10); */
 }
 
