@@ -1,7 +1,8 @@
 .home {
    display: grid;
    place-items: center;
-   margin-top: 10em;
+   margin: 3em;
+   /* margin-top: 10em; */
    /* border: 1px solid black; */
 }
 
@@ -14,7 +15,7 @@
    padding-bottom: 3em;
    padding-left: 1em;
    padding-right: 1em;
-   margin-top: -5em;
+   /* margin-top: -5em; */
    display: flex;
    filter: drop-shadow(1px 1px 0.5px #DCDCDC);
    max-width: 100%;
