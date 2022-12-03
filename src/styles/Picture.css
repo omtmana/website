@@ -3,13 +3,19 @@
   /* place-items: center; */
   /* margin: 0; */
   max-width: 100%;
-  /* margin-right: 3em; */
+  margin-top: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  /* padding-right: 5em; */
+  background-color: rgb(255, 255, 255, 0.5);
 }
-
 
 .picture-img {
   max-width: 400px;
   max-height: 400px;
+  min-width: 400px;
+  min-height: 400px;
+  border-radius: 10px;
   /* position: relative; */
   /* padding: 1em; */
 }
