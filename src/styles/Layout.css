@@ -26,5 +26,13 @@
 }
 
 .header-home {
-   width: 4em;
+   /* width: 4em; */
+   font-size: 2rem;
+   text-decoration: none;
+   padding-left: .75rem;
+   color: #5F9EA0;
+}
+
+.link-home {
+   text-decoration: none;
 }

@@ -22,7 +22,8 @@ const Header = () => {
   return (
     <>
       <Link to='/' className='link-home' style={{ float: 'left' }}>
-        <img src='home.png' className='header-home' />
+        {/* <img src='home.png' className='header-home' /> */}
+        <h1 className='header-home' style={{fontFamily: 'ms madi', textDecoration:'none'}}> Olivia M. </h1>
       </Link>
       <div className='header'>
         <Link to='/about' className='link'>
