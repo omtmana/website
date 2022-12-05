@@ -32,6 +32,7 @@ const Home = () => {
           <h1 className='home-name'> Olivia Manalastas </h1>
           {/* color: '#FF0066' */}
           <h2 style={{ fontFamily: 'Ms Madi', fontSize: '3em', color:'#A3C1AD'  }}> Full Stack Engineer </h2>
+          <h5 className='home-lang'> HTML - CSS - JavaScript - ReactJS - Ruby - Ruby on Rails - SQL </h5>
           <h4 className='home-links'>
             <span onClick={handleLinkedIn} className='link-data'> LinkedIn </span> |
             <span onClick={handleGithub} className='link-data'> Github </span> |

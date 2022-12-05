@@ -37,7 +37,7 @@
 }
 
 .home-links {
-   margin-top: -2em;
+   /* margin-top: -1em; */
    font-size: 1.5em;
 }
 
@@ -69,5 +69,11 @@
    padding-left: 2em;
    /* box-shadow: 2px 2px 2px #318CE7; */
    /* padding-left: 1em; */
+}
+
+.home-lang {
+   margin-top: -4em;
+   color: #5F9EA0;
+   letter-spacing: 2px;
 }
 
