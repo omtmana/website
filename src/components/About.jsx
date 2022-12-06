@@ -14,6 +14,9 @@ export const About = () => {
           <p> 🧩 Civil Engineering background with experience in Mathematics education, Civil Engineering, and Marketing.</p>
           <p> 🧘🏻‍♀️ Aspiring tennis player. V3 in indoor bouldering. 5.10d in indoor top-rope. Occasional futball player</p>
           {/* <p> Currently reading: 21 Lessons for the 21st Century </p> */}
+          <span>
+            <p> 🏆 <strong> Current Goal: </strong> Solve 3-5 LeetCode or HackerRank problems to improve my DSA knowledge.</p> 
+          </span>
         </span>
         {/* <div>
           <img src='random.png' style={{ width: '200px', marginBottom: '-5px' }} />

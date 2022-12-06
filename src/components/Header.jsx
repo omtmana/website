@@ -5,20 +5,6 @@ import { Link } from 'react-router-dom'
 import '../styles/Layout.css'
 
 const Header = () => {
-  // const [dropDown, setDropDown] = useState([])
-
-  // useEffect(() => {
-  //   const nav = [
-  //     // add link to Code
-  //     { name: 'Code', path: '/' },
-  //     // add link to Pictures
-  //     { name: 'Pictures', path: '/' },
-  //     // add link to Blogs
-  //     { name: 'Blogs', path: '/' }
-  //   ]
-  //   setDropDown(nav)
-  // }, [])
-
   return (
     <>
       <Link to='/' className='link-home' style={{ float: 'left' }}>
@@ -32,16 +18,7 @@ const Header = () => {
         <Link to='/production' className='link'>
         <p> Productions </p>
       </Link>
-        {/* <button> Production </button>
-        <ul>
-          {dropDown.map((d, i) => (
-            <li key={i}>
-              <Link to={d.path}>{d.name}</Link>
-            </li>
-          ))}
-        </ul> */}
         <Link to='/contact' className='link'>
-          {/* <img src='telephone.png' className='header-phone' /> */}
           <p> Contact </p>
         </Link>
       </div>
