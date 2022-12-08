@@ -68,8 +68,8 @@
    max-width: 325px;
    opacity: .85;
    padding-left: 2em;
-   /* box-shadow: 2px 2px 2px #318CE7; */
-   /* padding-left: 1em; */
+   border-radius: 50%;
+   box-shadow: 10px 1px 1px #5F9EA0, 20px 1px 1px rgb(95, 158, 160, 0.50),-1px 1px 1px #5F9EA0 ;
 }
 
 .home-lang {
