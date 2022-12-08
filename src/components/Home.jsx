@@ -15,7 +15,7 @@ const Home = () => {
   }
 
   const handleResume = () => {
-    window.open('olivia.pdf')
+    window.open('copy_resume.pdf')
   }
 
   const handleContactMe = () => {
