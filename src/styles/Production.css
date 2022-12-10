@@ -9,7 +9,8 @@
 
 .production-code:hover {
   /* border: 1px solid black; */
-  color: palevioletred;
+  /* color: palevioletred; */
+  color: #5F9EA0;
 }
 
 .production-blog:hover {
