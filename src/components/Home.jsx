@@ -15,7 +15,7 @@ const Home = () => {
   }
 
   const handleResume = () => {
-    window.open('copy_resume.pdf')
+    window.open('Olivia_Manalastas.pdf')
   }
 
   const handleContactMe = () => {
