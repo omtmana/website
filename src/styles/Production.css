@@ -1,10 +1,19 @@
 .production {
-  display: grid;
-  place-items: center;
+  /* display: grid; */
+  /* place-items: center; */
   font-size: 1em;
   /* padding-top: 7em; */
   /* border: 1px solid red; */
+  /* justify-content: center; */
+  /* display: flex; */
   justify-content: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.production-code {
+  border: 1px solid black;
+  padding: 1em
 }
 
 .production-code:hover {
