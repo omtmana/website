@@ -16,7 +16,7 @@ export const About = () => {
           {/* <p> 🧘🏻‍♀️ Aspiring tennis player. V3 in indoor bouldering. 5.10d in indoor top-rope. Occasional futball player</p> */}
           {/* <p> Currently reading: 21 Lessons for the 21st Century </p> */}
           <span>
-            <p> 🏆 <strong> Current Goal: </strong> Solve 3-5 LeetCode or HackerRank problems to improve my DSA knowledge.</p> 
+            {/* <p> 🏆 <strong> Current Goal: </strong> Solve 3-5 LeetCode or HackerRank problems to improve my DSA knowledge.</p>  */}
           </span>
         </span>
         {/* <div>
